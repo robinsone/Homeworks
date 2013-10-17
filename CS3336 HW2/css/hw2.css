@@ -1,0 +1,34 @@
+body {
+	padding:0;
+	margin:0;
+	font-size: 12px;
+	font-family: arial, sans-serif;  
+	color:#000;
+}
+
+#mainbody {
+	width: 500px;
+	position: relative;
+	margin: 60px auto;
+}
+
+.leftside {
+	float: left;
+	width: 100px;
+	margin-right: 50px;	
+}
+
+.rightside{
+	float: left;
+	width: 350px;
+}
+
+.top {
+	margin-top: 60px;
+}
+
+#lucky {
+	color: red;
+	font-weight: bold;
+	font-size: 1.6em;
+}

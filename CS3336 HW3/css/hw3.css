@@ -1,0 +1,61 @@
+body {
+	padding:0;
+	margin:0;
+	font-size: 12px;
+	font-family: arial, sans-serif;  
+	color:#000;
+}
+
+#mainbody {
+	width: 810px;
+	position: relative;
+	margin: 60px auto;
+}
+
+#mainbody div {
+	float: left;
+	padding: 10px;
+}
+
+#mainbody p{
+	margin-top: 20px;
+	color: #147ee1;
+	font-weight: bold;
+	font-size: 1.2em;
+}
+
+#mainbody a{
+    text-align: center;
+    line-height: 30px;
+    font-size: 0.9em;
+    background-color: #147ee1;
+    text-decoration: none;
+    color: white;
+    padding: 2px 8px 2px 8px;
+}
+
+#mainbody input {
+	color:  #147ee1;
+}
+
+#result{
+	margin-top: 20px;
+	color: black !important;
+}
+
+#result span{
+	color: #147ee1;
+	width: 200px;
+}
+
+#mainbody a:hover{
+	background-color: red;
+}
+
+.error {
+	color: red !important;
+}
+
+.hide {
+	display: none;
+}
