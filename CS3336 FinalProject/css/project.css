@@ -1,0 +1,112 @@
+body{
+	width: 960px;
+	color: #000;
+	font-size: 14px;
+	margin: 0 auto;
+}
+
+#login {
+	width: 330px;
+	margin: 0 auto;
+	padding: 10px;
+	background-color: #d6e5f4;
+}
+
+#inputArea
+{
+	font-family: Arial, Sans-Serif;
+	font-size: 13px;
+	background-color: #d6e5f4;
+	padding: 10px;
+	width:310px;
+}
+
+#inputArea input, 
+#inputArea textarea,
+#inputArea select
+{
+	font-family: Arial, Sans-Serif;
+	font-size: 13px;
+	margin-bottom: 5px;
+	display: block;
+	padding: 4px;
+	width: 300px;
+	box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	-ms-box-sizing: content-box;
+	-webkit-box-sizing: content-box;
+	background-color: #ffffff;
+	border: solid 1px #33677F;
+	overflow: hidden;
+}
+
+
+#inputArea input.submit 
+{
+	font-family: Arial, Sans-Serif;
+	font-size: 15px;
+	display: block;
+	width: 100px;
+	color: #fff;
+	background-color: #5384c6;
+	margin-left: auto;
+    margin-right: auto;
+	text-align:center;
+}
+
+
+#inputArea input.submit:hover 
+{
+	position: relative;
+	top: 1px;
+	left: 1px;
+	background-color: #f00;
+}
+
+
+
+#inputArea div
+{
+	font-family: Arial, Sans-Serif;
+	font-size: 11px;
+	display: block;
+	margin-top: -2px;
+	padding-bottom: 20px;
+	width: 300px;
+	color: #f50213;
+	box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	-ms-box-sizing: content-box
+}
+
+#topbanner {
+	text-align: right;
+	background-color: #5384c6;
+}
+
+#topbanner p{
+	margin-right: 10px;
+	padding: 5px;
+	color: white;
+}
+
+#sidebar{
+	float: left;
+	width: 210px;
+	margin-right: 10px;
+}
+
+#graph div{
+	float:left;
+}
+#graph img{
+	float: left;
+}
+
+.arrow {
+	margin-top: 100px;
+}
+
+.hide {
+	display:none;
+}

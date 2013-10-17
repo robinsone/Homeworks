@@ -1,0 +1,87 @@
+{
+
+	// ------ INFO ----------------------------------------------------------------------
+
+	// ** Commas
+
+	// don't forget about commas
+	// -> each entry needs a comma at the end of line EXCEPT the last (uncommented) entry
+	// for precise info see www.json.org
+
+
+	// ** Comments
+
+	// the "//" are so called "comments", all text after it is ignored
+	// they are used for notes or deactivating an entry
+
+	// non-basic settings are deactivated and default options specified in the global settings file,
+	// that is $packages$/FTPSync/ftpsync.sublime-settings (where $packages$ is a path where Sublime
+	// keeps packages in your Operating System) accessible via Preferences > Package Settings > FTPSync
+	// use Settings - User to override the global defaults
+
+	// more info about Sublime Text 2 settings on http://www.sublimetext.com/docs/2/settings.html
+
+	// -> if you want to activate a settings entry with preceding //, remove the //
+
+	// ------ SETTINGS ------------------------------------------------------------------
+
+	// your main connection
+	"default": {
+
+		// address
+		"host": "ftp.cs3336.com",
+
+		//"port": 21,
+
+		// credentials
+		"username": "erobin258791",  // or null for anonymous login
+		"password": "kN7LBsY3W1",
+
+		// path to the folder matching the folder in which this file resides
+		"path": "/public_html/project"
+
+		// true = secured FTP connection
+		//"tls": false,
+
+		// set whether the connection will be passive or active
+		//"passive": true,
+
+		// true = upload on save, false = upload only manually
+		// "upload_on_save": true,
+
+		// how long until connection closes [seconds]
+		//"timeout": 30,
+
+		// regular expression, when matches the file path of the file-to-be-uploaded, it cancels its upload
+		//"ignore": "",
+
+		// whether to check 'last updated' of the target file on server
+		//"overwrite_newer_prevention": true,
+
+		// if set to true it will download the file from server on opening, but only if it's newer than the current file
+		//"download_on_open": false,
+
+		// delay [seconds] before changed file is uploaded !when using upload_on_save!
+		// can be used for increase of performance or to allow build scripts to finish
+		//"upload_delay": 0,
+
+		// If the server you're working with is in a different timezone, you can specify the offset here
+		// in seconds.  For example, if the FTP server is 1 hour ahead of you, use -3600 as the offset to
+		// make comparisons against the server time take 3600 seconds off of the server time.
+		//"time_offset": 0,
+
+
+		// chmod value for directories created on remote server by FTPSync
+		//"default_folder_permissions": "755",
+
+		// list of lists with pathnames and filenames to folders to be watched for change in between delay (upload_delay)
+		//
+		// ** example:
+		//    after_save_watch: [ [ "code/assets/css", "*.css" ], [ "code/assets/", "*.jpg, *.png, *.gif" ] ]
+		//
+		// ** Used only in conjunction with upload_on_save and upload_delay **
+		//
+		//"after_save_watch": []
+
+	}
+}
