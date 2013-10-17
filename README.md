@@ -19,5 +19,11 @@ This course provides a comprehensive introduction to many important topics in we
 - [Homework 4] (https://github.com/robinsone/Homeworks/tree/master/CS3336%20HW4)
 - [Final Project] (https://github.com/robinsone/Homeworks/tree/master/CS3336%20FinalProject)
  
+### CS3342 - Organization of Programming Languages
 
+Specification and analysis of programming languages; data types and structures; bindings and access structures; run-time behavior of programs; compilation vs. interpretation. Comparative presentation of at least three programming languages addressing the above concepts. Languages used in this course include Scheme and Prolog.
+
+- [Assignment 4] (https://github.com/robinsone/Homeworks/tree/master/CS3342%20Scheme)
+- [Assignment 5] (https://github.com/robinsone/Homeworks/tree/master/CS3342%20PrologTicTacToe)
+ 
 
