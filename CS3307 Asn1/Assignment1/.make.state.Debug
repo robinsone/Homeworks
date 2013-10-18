@@ -1,0 +1,27 @@
+.MAKE_VERSION:	VERSION-1.0
+.BUILT_LAST_MAKE_RUN:
+.build-conf:
+	"make"  -f nbproject/Makefile-Debug.mk dist/Debug/GNU-Linux-x86/3307assignment1
+.BUILT_LAST_MAKE_RUN:
+.depcheck-impl:
+	echo "# This code depends on make tool being used" >.dep.inc
+	if [ -n "" ]; then \
+	    echo "DEPFILES=\$(wildcard \$(addsuffix .d, \${OBJECTFILES}))" >>.dep.inc; \
+	    echo "ifneq (\${DEPFILES},)" >>.dep.inc; \
+	    echo "include \${DEPFILES}" >>.dep.inc; \
+	    echo "endif" >>.dep.inc; \
+	else \
+	    echo ".KEEP_STATE:" >>.dep.inc; \
+	    echo ".KEEP_STATE_FILE:.make.state.\${CONF}" >>.dep.inc; \
+	fi
+build/Debug/GNU-Linux-x86/dayquery.o:
+	mkdir -p build/Debug/GNU-Linux-x86
+	rm -f build/Debug/GNU-Linux-x86/dayquery.o.d
+	g++    -c -g -MMD -MP -MF build/Debug/GNU-Linux-x86/dayquery.o.d -o build/Debug/GNU-Linux-x86/dayquery.o dayquery.cpp
+build/Debug/GNU-Linux-x86/employee.o:
+	mkdir -p build/Debug/GNU-Linux-x86
+	rm -f build/Debug/GNU-Linux-x86/employee.o.d
+	g++    -c -g -MMD -MP -MF build/Debug/GNU-Linux-x86/employee.o.d -o build/Debug/GNU-Linux-x86/employee.o employee.cpp
+dist/Debug/GNU-Linux-x86/3307assignment1:	/usr/lib/libc.so /gaul/local/gcc/V4.1.2/lib/gcc/sparc-sun-solaris2.10/4.1.2/libgcc.a /gaul/local/gcc/V4.1.2/lib/libgcc_s.so /usr/lib/libm.so /gaul/local/gcc/V4.1.2/lib/libstdc++.so 
+	mkdir -p dist/Debug/GNU-Linux-x86
+	g++    -o dist/Debug/GNU-Linux-x86/3307assignment1 build/Debug/GNU-Linux-x86/dayquery.o  build/Debug/GNU-Linux-x86/employee.o  
