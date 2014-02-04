@@ -63,8 +63,4 @@ Data Structures are methods of organizing data involved in computation. Algorith
 Software design and analysis techniques with particular emphasis on object-oriented design and analysis; a team project will be developed using an object-oriented language such as Java, C++ or Smalltalk. 
 
 - [Assignment 1](https://github.com/robinsone/Homeworks/tree/master/CS3307%20Asn1) 
-<<<<<<< HEAD
-
-=======
->>>>>>> d3da1bc1dc8b1b89c4ea31ce6721196dced55f55
 
