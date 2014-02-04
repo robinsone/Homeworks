@@ -33,10 +33,10 @@ Specification and analysis of programming languages; data types and structures; 
 
 Dealing with digital pictures (images) requires far more computer memory and transmission time than is needed for plain text. This course provides students with a solid understanding of the fundamentals and the principles of various digital still-image compression schemes. 
 
-- [Assignment 1] (https://github.com/robinsone/Homeworks/tree/master/CS4481%Asn1)
-- [Assignment 2] (https://github.com/robinsone/Homeworks/tree/master/CS4481%Asn2)
-- [Assignment 3] (https://github.com/robinsone/Homeworks/tree/master/CS4481%Asn3)
-- [Assignment 4] (https://github.com/robinsone/Homeworks/tree/master/CS4481%Asn4)
+- [Assignment 1] (https://github.com/robinsone/Homeworks/tree/master/CS4481%20Asn1)
+- [Assignment 2] (https://github.com/robinsone/Homeworks/tree/master/CS4481%20Asn2)
+- [Assignment 3] (https://github.com/robinsone/Homeworks/tree/master/CS4481%20Asn3)
+- [Assignment 4] (https://github.com/robinsone/Homeworks/tree/master/CS4481%20Asn4)
 
 ### CS3340 - Analysis of Algorithms I
 
