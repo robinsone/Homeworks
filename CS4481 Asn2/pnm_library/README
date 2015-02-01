@@ -1,0 +1,16 @@
+
+If you want to use using the pnm library in your program:
+
+1- put the following #include line in the top of your code
+   #include "libpnm.h"
+
+2- put in the same directory:
+   - the library (libpnm.a), 
+   - the include file (libpnm.h), and 
+   - your program
+
+3- execute the following command:
+   gcc -Wall example.c -o example -I. -L. -lpnm
+
+PS: If you want to compile the library again, you can just "make" it again.
+
