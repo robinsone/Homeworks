@@ -16,12 +16,19 @@ The purpose of this course is to provide the students with solid foundations in 
 
 The study of data structures and algorithms is carried out within an object-oriented framework. When implementations are considered, the Java programming language is used. 
 
-- Topics covered in this course include:
+Topics covered in this course include:
 - analysis of algorithms
 - dictionaries, hash tables
 - trees, binary search trees, multi-way search trees, (2,4)-trees, B-trees
 - graphs, graph traversals, graph algorithms
 - sorting.
+
+Assignments
+- [CS2210 - Assignment 1](https://github.com/robinsone/Homeworks/tree/master/CS2210%20Asn1)
+- [CS2210 - Assignment 2](https://github.com/robinsone/Homeworks/tree/master/CS2210%20Asn2)
+- [CS2210 - Binary Tree Dictionary](https://github.com/robinsone/Homeworks/tree/master/CS2210%20BinaryTreeDictionary)
+- [CS2210 - BTree](https://github.com/robinsone/Homeworks/tree/master/CS2210%20Btree)
+- [CS2210 - Two Three Tree](https://github.com/robinsone/Homeworks/tree/master/CS2210%20TwoThreeTree)
 
 ### CS3336 - Web Development
 #### Course Objectives
