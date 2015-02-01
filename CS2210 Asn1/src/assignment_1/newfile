@@ -1,0 +1,60 @@
+import java.util.Scanner;
+public class Assign2
+{
+    public static void main (String [] args)
+    {
+        Scanner keyboard = new Scanner (System.in);
+        int [] heights;
+        int start = 0;
+        int length=0;
+        double logLength=0;
+
+            do
+            {
+                System.out.println ("Enter the length of a ruler which is a power of 2 and at least 2");
+                length = keyboard.nextInt();
+                logLength = Math.log(length) / Math.log(2);
+            }
+            while (length<2 || logLength != Math.round(logLength));
+
+             heights= new int [length+1];
+
+            recurse (heights, start, length);
+
+              for (int x=0; x<heights.length; x++)
+              {
+                  System.out.print (heights[x]);
+               }
+
+                System.out.println (" ");
+
+                int w=0;
+              for (int z=0; z<heights.length; z++)
+                {
+                    if (w==10)
+                    w=0;
+                    System.out.print (w);
+                    w++;
+                }
+        }
+
+
+
+        public static void recurse (int [] heights, int start, int end)
+        {
+            int length = end-start;
+            int mid = (start+end) /2;
+
+            if(length<=2)
+            heights [mid] = 1;
+
+            else
+            {
+                heights [mid] = (int)(Math.log(end-start)/Math.log(2));
+                recurse (heights, start, mid);
+                recurse (heights, mid, end);
+            }
+
+        }
+
+}

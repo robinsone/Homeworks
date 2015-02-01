@@ -1,0 +1,33 @@
+The alleged paradox begins with a sceptical inquiry about my right to
+claim that my past usage of '+' (i.e., my past usage of the plus sign)
+was used to denote the function plus rather than the function quus. The
+definition of quus is: x quus y = x + y, if x, y < 57; otherwise, x
+quus y = 5. (Kripke uses an encircled plus sign to represent the quus
+sign. I can't reproduce that sign here so I'll just use 'quus').
+Basically, the problem is that on all of the problems that I have done
+so far, the plus and quus functions demand the same answers. So,
+whether I know it or not, my past responses to computations have been
+in accord with plus just as much as they have been in accord with quus.
+Thus, there seems to be no reason at all to prefer the claim that I've
+been plussing to the claim that I've been quussing, given my
+hypothetical past history. After all, the two functions are identical
+over the cases that I am allowed to appeal to so far.
+Given this setup, Kripke boldly asks: "Who is to say that [quus] is not
+the function I previously meant by '+'?" The sceptic claims that no one
+can legitimately claim that quus is not the function I previously meant
+by '+', given the hypothetical situation he proposes, because no one
+can find a fact that shows that I meant plus rather than quus. More
+specifically, the sceptic challenges those of us who disagree with him
+to produce a fact that shows that I meant plus rather than quus. Also,
+the sceptic requires that the fact in question "must, in some sense,
+show how I am justified in giving the answer '125' to '68 + 57'"
+(rather than '5'). (K, p. 11). (I have always seen the second form of
+the challenge, as Kripke calls it, viz., the requirement that the fact
+show how I am justified in answering '125' rather than '5', as simply a
+way of clarifying the task at hand. After all, challenging someone to
+produce a fact that I meant plus rather than quus is not the most
+obvious challenge in the world, for a variety of reasons. Since it's
+clear that if I such a fact could be produced, it would justify my
+saying '125' rather than '5', the second form of the challenge does not
+impose a new task on us. Rather, it clarifies the task to be
+performed).
